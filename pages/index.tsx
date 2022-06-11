@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 // --------------------------------------------------------------------------------
 import AppHead from '../components/AppHead';
+import GoogleAutocomplete from '../components/GoogleAutocomplete';
 
 const Home: NextPage = () => {
   // --------------------------------------------------------------------------------
@@ -11,7 +12,9 @@ const Home: NextPage = () => {
     <div className="app-container">
       <AppHead />
 
-      <div>app</div>
+      <div className="flex title center">Google Services</div>
+
+      <GoogleAutocomplete />
     </div>
   );
 };

@@ -14,3 +14,42 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #94b49f;
+}
+
+.flex {
+  display: flex;
+}
+
+.fex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fcf8e8;
+  margin: 1rem 0;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #fcf8e8;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #fcf8e8;
+  margin: 1rem 0;
+}
